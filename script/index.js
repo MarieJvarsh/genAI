@@ -57,7 +57,7 @@ const analyzeGpt = async (industry, goals, targetMarket) => {
     headers: {
       "Content-Type": "application/json",
       Authorization:
-        "Bearer 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",
+        "Bearer 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",
     },
     body: JSON.stringify({
       model: "text-davinci-003",
