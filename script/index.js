@@ -31,7 +31,7 @@ submitButton.addEventListener("click", (e) => {
   res.style.height = "0px";
   setTimeout(() => {
     res.innerHTML = "";
-  }, 30);
+  }, 300);
 
   submitButton.style.backgroundColor = "grey";
   analyzeGpt(industry.value, goals.value, targetMarket.value).then((data) => {
